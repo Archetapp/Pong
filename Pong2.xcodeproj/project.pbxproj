@@ -17,6 +17,7 @@
 		AC0233371DAD29F800FAFCE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0233351DAD29F800FAFCE9 /* LaunchScreen.storyboard */; };
 		AC0233421DAD29F800FAFCE9 /* Pong2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0233411DAD29F800FAFCE9 /* Pong2Tests.swift */; };
 		AC02334D1DAD29F800FAFCE9 /* Pong2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02334C1DAD29F800FAFCE9 /* Pong2UITests.swift */; };
+		AC4197481DCA560100A2FDF1 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC4197471DCA560100A2FDF1 /* LLPIXEL3.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AC0233481DAD29F800FAFCE9 /* Pong2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pong2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC02334C1DAD29F800FAFCE9 /* Pong2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong2UITests.swift; sourceTree = "<group>"; };
 		AC02334E1DAD29F800FAFCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4197471DCA560100A2FDF1 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		AC0233251DAD29F800FAFCE9 /* Pong2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC4197471DCA560100A2FDF1 /* LLPIXEL3.ttf */,
 				AC0233261DAD29F800FAFCE9 /* AppDelegate.swift */,
 				AC0233281DAD29F800FAFCE9 /* GameScene.sks */,
 				AC02332A1DAD29F800FAFCE9 /* Actions.sks */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC0233321DAD29F800FAFCE9 /* Main.storyboard in Resources */,
+				AC4197481DCA560100A2FDF1 /* LLPIXEL3.ttf in Resources */,
 				AC0233291DAD29F800FAFCE9 /* GameScene.sks in Resources */,
 				AC0233341DAD29F800FAFCE9 /* Assets.xcassets in Resources */,
 				AC0233371DAD29F800FAFCE9 /* LaunchScreen.storyboard in Resources */,
@@ -526,6 +530,7 @@
 				AC0233531DAD29F800FAFCE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC0233541DAD29F800FAFCE9 /* Build configuration list for PBXNativeTarget "Pong2Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +539,7 @@
 				AC0233561DAD29F800FAFCE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC0233571DAD29F800FAFCE9 /* Build configuration list for PBXNativeTarget "Pong2UITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +548,7 @@
 				AC0233591DAD29F800FAFCE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
