@@ -18,6 +18,7 @@
 		AC0233421DAD29F800FAFCE9 /* Pong2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0233411DAD29F800FAFCE9 /* Pong2Tests.swift */; };
 		AC02334D1DAD29F800FAFCE9 /* Pong2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02334C1DAD29F800FAFCE9 /* Pong2UITests.swift */; };
 		AC4197481DCA560100A2FDF1 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC4197471DCA560100A2FDF1 /* LLPIXEL3.ttf */; };
+		AC982FFD1E2451B1008DF40E /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC982FFC1E2451B1008DF40E /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AC02334C1DAD29F800FAFCE9 /* Pong2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong2UITests.swift; sourceTree = "<group>"; };
 		AC02334E1DAD29F800FAFCE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC4197471DCA560100A2FDF1 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
+		AC982FFC1E2451B1008DF40E /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				AC02332C1DAD29F800FAFCE9 /* GameScene.swift */,
 				AC02332E1DAD29F800FAFCE9 /* GameViewController.swift */,
 				AC0233301DAD29F800FAFCE9 /* Main.storyboard */,
+				AC982FFC1E2451B1008DF40E /* MenuVC.swift */,
 				AC0233331DAD29F800FAFCE9 /* Assets.xcassets */,
 				AC0233351DAD29F800FAFCE9 /* LaunchScreen.storyboard */,
 				AC0233381DAD29F800FAFCE9 /* Info.plist */,
@@ -200,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Archetapp;
 				TargetAttributes = {
 					AC0233221DAD29F700FAFCE9 = {
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC02332D1DAD29F800FAFCE9 /* GameScene.swift in Sources */,
+				AC982FFD1E2451B1008DF40E /* MenuVC.swift in Sources */,
 				AC02332F1DAD29F800FAFCE9 /* GameViewController.swift in Sources */,
 				AC0233271DAD29F800FAFCE9 /* AppDelegate.swift in Sources */,
 			);
@@ -352,6 +356,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -402,6 +407,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
